@@ -4,6 +4,6 @@ def myfunc():
   x = "fantastic"
   print("Python is " + x)
 
-myfunc()   // output: Python is fantastic
+myfunc()   # output: Python is fantastic
 
-print("Python is " + x)    // output: Python is awesome
+print("Python is " + x)    # output: Python is awesome
