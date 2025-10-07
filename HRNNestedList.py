@@ -6,7 +6,7 @@ if __name__ == '__main__':
         score = float(input())
         nested_list.append([name, score])
 
-    scores = sorted(set([score for name, score in nested_list]))   // # Tüm notları sırala ve tekrarları kaldır
+    scores = sorted(set([score for name, score in nested_list]))    # Tüm notları sırala ve tekrarları kaldır
 
     second_lowest = scores[1]
 
