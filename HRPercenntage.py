@@ -12,4 +12,4 @@ if __name__ == '__main__':
     
     average = sum(marks) / len(marks)
     
-    print("{:.2f}".format(average)) // virgülden sonra 2 basamak kadar al
+    print("{:.2f}".format(average))  # virgülden sonra 2 basamak kadar al
