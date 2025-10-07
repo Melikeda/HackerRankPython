@@ -4,4 +4,4 @@ if __name__ == '__main__':
     
     t = tuple(integer_list)
 
-    print(hash(t))  // “Hash”, bir veri yapısını veya değeri sabit uzunlukta bir sayıya dönüştürme işlemidir.
+    print(hash(t))  # “Hash”, bir veri yapısını veya değeri sabit uzunlukta bir sayıya dönüştürme işlemidir.
