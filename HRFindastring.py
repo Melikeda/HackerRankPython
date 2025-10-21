@@ -8,7 +8,7 @@ def count_substring(string, sub_string):
  return count
 
 if __name__ == '__main__':
-    string = input().strip()  //.strip() → baştaki ve sondaki boşlukları siler (örneğin " hello " → "hello" olur).
+    string = input().strip()  #.strip() → baştaki ve sondaki boşlukları siler (örneğin " hello " → "hello" olur).
     sub_string = input().strip()
     
     count = count_substring(string, sub_string)
